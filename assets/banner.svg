@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <defs>
+    <style>
+    @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    .title    { opacity: 0; animation: fadein 0.8s 0.2s ease forwards; }
+    .subtitle { opacity: 0; animation: fadein 0.8s 0.7s ease forwards; }
+    .uline    { opacity: 0; animation: fadein 0.5s 1.1s ease forwards; }
+    </style>
+  </defs>
+
+  <!-- Сплошной темный фон со скругленными углами (rx="10") -->
+  <rect width="800" height="120" rx="10" fill="#0d1117"/>
+
+  <!-- Заголовок -->
+  <text x="400.0" y="40" dominant-baseline="middle" text-anchor="middle"
+        fill="#eceff4" font-family="Segoe UI, Inter, sans-serif"
+        font-size="38" font-weight="bold" class="title">Chmod777v</text>
+
+  <!-- Линия -->
+  <rect x="337.0" y="60" width="126" height="2.5" fill="#b6a891" rx="1.5" class="uline"/>
+
+  <!-- Подзаголовок -->
+  <text x="400.0" y="85" dominant-baseline="middle" text-anchor="middle"
+        fill="#b6a891" font-family="Consolas, monospace"
+        font-size="16" opacity="0.8" class="subtitle">Go Backend Developer</text>
+</svg>
